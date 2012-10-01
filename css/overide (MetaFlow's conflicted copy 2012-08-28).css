@@ -1,0 +1,67 @@
+/* Special grid styles -------------------------------------- */
+
+.show-grid {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.show-grid [class*="span"] {
+  background-color: #ccc;
+  text-align: center;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  min-height: 40px;
+  line-height: 40px;
+}
+.show-grid .show-grid {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.show-grid .show-grid [class*="span"] {
+  background-color: #999;
+}
+
+/*Overide b min L9*/
+
+
+.page-header {
+  padding-bottom: 5px;
+  margin: 0;
+  border: none;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+  text-shadow: none;
+}
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+  background-color: transparent;
+  color: #CCC;
+}
+.navbar-inverse .brand:hover, .navbar-inverse .nav > li > a:hover {
+  color: #CCC;
+}
+
+.nav-header {
+  text-transform: none;
+}
+
+
+
+
+
+
+
+.navbar-inverse .btn-navbar {background: none; background: #999; padding: 15px 15px;}
+
+.navbar-inverse .btn-navbar:hover, .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active, .navbar-inverse .btn-navbar.disabled, .navbar-inverse .btn-navbar[disabled] {
+color: white;
+background-color: #990000;
+}
+
+
+
+/*mc --------------------------------*/
+
+/*.carousel div {
+  border: solid 1px #ccc;
+}*/

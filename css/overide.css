@@ -1,0 +1,59 @@
+/* Special grid styles -------------------------------------- */
+
+.show-grid {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.show-grid [class*="span"] {
+  background-color: #ccc;
+  text-align: center;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  min-height: 40px;
+  line-height: 40px;
+}
+.show-grid .show-grid {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.show-grid .show-grid [class*="span"] {
+  background-color: #999;
+}
+
+/*Overide b min L9*/
+
+body {
+    padding-top: 60px; /* container -topbar */
+  }
+
+.page-header {
+  padding-bottom: 5px;
+  margin: 0;
+  border: none;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+  text-shadow: none;
+}
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+  background-color: transparent;
+  color: #CCC;
+}
+.navbar-inverse .brand:hover, .navbar-inverse .nav > li > a:hover {
+  color: #CCC;
+}
+
+.nav-header {
+  text-transform: none;
+}
+
+/*mc --------------------------------*/
+
+/*.carousel div {
+  border: solid 1px #ccc;
+}*/
+
+
+
+footer ul li {list-style: none;}
